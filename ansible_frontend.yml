@@ -4,7 +4,7 @@
   gather_facts: no
   vars:
     ansible_python_interpreter: /usr/bin/python3
-    s3_bucket_name: "rohit-jain-demo-s3"
+    s3_bucket_name: ""
     s3_object_key: "assets.tar"
     destination_directory: "/var/www/html"
     temp_directory: "/var/www/html/build"
